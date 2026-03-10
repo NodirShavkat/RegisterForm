@@ -18,7 +18,7 @@ SECRET_KEY = os.environ.get("SECRET_KEY", "dev-key")
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = os.environ.get("DEBUG", "False") == "True"
 
-ALLOWED_HOSTS = ['registerform-2xfg.onrender.com']
+ALLOWED_HOSTS = ['*', 'registerform-2xfg.onrender.com']
 
 
 # Application definition
